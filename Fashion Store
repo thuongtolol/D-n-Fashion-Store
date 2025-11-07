@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">👗 Fashion Store</div>
+    <nav>
+      <a href="#">Trang chủ</a>
+      <a href="#">Sản phẩm</a>
+      <a href="#">Giới thiệu</a>
+      <a href="#">Liên hệ</a>
+    </nav>
+    <div class="cart-icon">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <section class="banner">
+    <h1>Bộ sưu tập thời trang 2025</h1>
+    <p>Khám phá phong cách của bạn cùng <b>Fashion Store</b></p>
+  </section>
+
+  <main>
+    <h2 class="title">Sản phẩm nổi bật</h2>
+    <div class="product-container" id="product-list"></div>
+  </main>
+
+  <section class="cart" id="cart">
+    <h2>🛍️ Giỏ hàng</h2>
+    <ul id="cart-items"></ul>
+    <p>Tổng: <span id="total">0</span> VNĐ</p>
+    <button id="clear-cart">Xóa giỏ hàng</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Fashion Store | Thiết kế bởi Đức Anh</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
